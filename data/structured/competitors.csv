@@ -1,0 +1,101 @@
+competitor_id,company_name,industry,headquarters,CEO,website,market_share,employee_count,annual_revenue_million
+1,DataSphere 1,AI,Germany,CEO 1,https://company1.example.com,6.88,4772,889
+2,QuantumSoft 2,AI,Canada,CEO 2,https://company2.example.com,11.13,1176,817
+3,VisionTech 3,Analytics,Canada,CEO 3,https://company3.example.com,15.45,18590,1678
+4,QuantumSoft 4,Enterprise AI,India,CEO 4,https://company4.example.com,11.78,9315,103
+5,InsightAI 5,Enterprise AI,Germany,CEO 5,https://company5.example.com,7.67,7255,2807
+6,DataSphere 6,AI,UK,CEO 6,https://company6.example.com,3.32,11470,4995
+7,CloudEdge 7,AI,UK,CEO 7,https://company7.example.com,13.87,12603,695
+8,QuantumSoft 8,SaaS,Canada,CEO 8,https://company8.example.com,22.25,12050,4779
+9,VisionTech 9,AI,USA,CEO 9,https://company9.example.com,16.87,9682,703
+10,VisionTech 10,AI,UK,CEO 10,https://company10.example.com,7.67,12154,1382
+11,AIWorks 11,SaaS,India,CEO 11,https://company11.example.com,17.08,2539,1451
+12,QuantumSoft 12,Analytics,India,CEO 12,https://company12.example.com,12.09,9045,4612
+13,VisionTech 13,SaaS,USA,CEO 13,https://company13.example.com,6.5,1251,2634
+14,SmartLogic 14,SaaS,USA,CEO 14,https://company14.example.com,6.06,18785,2627
+15,VisionTech 15,Enterprise AI,UK,CEO 15,https://company15.example.com,22.23,15235,1220
+16,CloudEdge 16,Analytics,India,CEO 16,https://company16.example.com,18.88,17861,2202
+17,CortexAI 17,Enterprise AI,Canada,CEO 17,https://company17.example.com,10.59,7386,1183
+18,QuantumSoft 18,Enterprise AI,USA,CEO 18,https://company18.example.com,19.14,3792,1302
+19,InsightAI 19,Enterprise AI,Canada,CEO 19,https://company19.example.com,2.52,12704,4931
+20,NextGenAI 20,Cloud,Germany,CEO 20,https://company20.example.com,24.31,576,988
+21,QuantumSoft 21,SaaS,Germany,CEO 21,https://company21.example.com,3.68,14446,1345
+22,NextGenAI 22,AI,Germany,CEO 22,https://company22.example.com,24.33,6054,4208
+23,DataSphere 23,SaaS,Canada,CEO 23,https://company23.example.com,15.62,5208,3113
+24,InsightAI 24,Cloud,Canada,CEO 24,https://company24.example.com,23.04,19826,2705
+25,NextGenAI 25,AI,USA,CEO 25,https://company25.example.com,23.3,10276,2011
+26,TechNova 26,Analytics,Canada,CEO 26,https://company26.example.com,23.73,3006,4031
+27,DataSphere 27,Cloud,India,CEO 27,https://company27.example.com,4.08,15774,4553
+28,InsightAI 28,SaaS,Canada,CEO 28,https://company28.example.com,21.94,14065,1785
+29,QuantumSoft 29,Analytics,Germany,CEO 29,https://company29.example.com,10.58,12436,3638
+30,QuantumSoft 30,Enterprise AI,USA,CEO 30,https://company30.example.com,6.95,2298,2819
+31,TechNova 31,Cloud,Canada,CEO 31,https://company31.example.com,6.52,7416,108
+32,DataSphere 32,AI,India,CEO 32,https://company32.example.com,2.62,1229,2756
+33,DataSphere 33,Cloud,India,CEO 33,https://company33.example.com,7.68,16106,1805
+34,QuantumSoft 34,Analytics,Canada,CEO 34,https://company34.example.com,14.83,8162,3924
+35,SmartLogic 35,Analytics,USA,CEO 35,https://company35.example.com,3.33,14324,2952
+36,SmartLogic 36,Enterprise AI,UK,CEO 36,https://company36.example.com,21.73,1975,856
+37,TechNova 37,Enterprise AI,Germany,CEO 37,https://company37.example.com,20.21,3780,2086
+38,VisionTech 38,Analytics,Canada,CEO 38,https://company38.example.com,11.77,14024,1553
+39,CloudEdge 39,Enterprise AI,India,CEO 39,https://company39.example.com,21.99,2670,3680
+40,QuantumSoft 40,AI,USA,CEO 40,https://company40.example.com,16.65,17913,170
+41,DataSphere 41,Analytics,India,CEO 41,https://company41.example.com,10.75,15973,1801
+42,SmartLogic 42,AI,India,CEO 42,https://company42.example.com,10.1,12993,2222
+43,NextGenAI 43,SaaS,UK,CEO 43,https://company43.example.com,17.72,18411,4036
+44,InsightAI 44,Analytics,Germany,CEO 44,https://company44.example.com,6.22,2116,4794
+45,QuantumSoft 45,AI,Germany,CEO 45,https://company45.example.com,2.37,19342,3955
+46,QuantumSoft 46,Cloud,India,CEO 46,https://company46.example.com,2.37,16840,706
+47,InsightAI 47,AI,Canada,CEO 47,https://company47.example.com,2.63,7907,3357
+48,DataSphere 48,Cloud,India,CEO 48,https://company48.example.com,14.89,1502,721
+49,SmartLogic 49,Cloud,Canada,CEO 49,https://company49.example.com,13.55,8744,1723
+50,AIWorks 50,Analytics,Germany,CEO 50,https://company50.example.com,10.5,10030,3795
+51,AIWorks 51,AI,USA,CEO 51,https://company51.example.com,12.0,18648,869
+52,DataSphere 52,Cloud,India,CEO 52,https://company52.example.com,13.14,4540,2909
+53,DataSphere 53,Analytics,Germany,CEO 53,https://company53.example.com,7.84,14558,4500
+54,CloudEdge 54,Cloud,Canada,CEO 54,https://company54.example.com,1.19,18373,2502
+55,DataSphere 55,Analytics,Germany,CEO 55,https://company55.example.com,3.77,3707,4582
+56,InsightAI 56,SaaS,Germany,CEO 56,https://company56.example.com,15.52,11435,1717
+57,CloudEdge 57,Cloud,UK,CEO 57,https://company57.example.com,7.03,1864,806
+58,SmartLogic 58,SaaS,USA,CEO 58,https://company58.example.com,1.09,4486,2195
+59,InsightAI 59,Enterprise AI,Canada,CEO 59,https://company59.example.com,17.94,18579,129
+60,DataSphere 60,AI,India,CEO 60,https://company60.example.com,14.09,12298,4821
+61,QuantumSoft 61,Analytics,UK,CEO 61,https://company61.example.com,4.06,10301,3037
+62,TechNova 62,SaaS,India,CEO 62,https://company62.example.com,17.37,3568,2947
+63,QuantumSoft 63,Enterprise AI,Canada,CEO 63,https://company63.example.com,18.99,7957,1381
+64,InsightAI 64,Enterprise AI,USA,CEO 64,https://company64.example.com,5.3,11085,3422
+65,VisionTech 65,SaaS,India,CEO 65,https://company65.example.com,19.9,3742,3183
+66,TechNova 66,Enterprise AI,India,CEO 66,https://company66.example.com,5.79,15283,2914
+67,CloudEdge 67,Analytics,India,CEO 67,https://company67.example.com,1.57,6528,3314
+68,AIWorks 68,SaaS,USA,CEO 68,https://company68.example.com,24.21,9346,2926
+69,QuantumSoft 69,Enterprise AI,Canada,CEO 69,https://company69.example.com,8.95,1104,994
+70,CloudEdge 70,Analytics,Canada,CEO 70,https://company70.example.com,24.1,8898,363
+71,DataSphere 71,Cloud,UK,CEO 71,https://company71.example.com,9.3,10478,3624
+72,CortexAI 72,Cloud,USA,CEO 72,https://company72.example.com,10.24,19093,1607
+73,CloudEdge 73,AI,UK,CEO 73,https://company73.example.com,1.04,17843,1664
+74,AIWorks 74,Enterprise AI,USA,CEO 74,https://company74.example.com,23.77,11019,2621
+75,DataSphere 75,SaaS,Canada,CEO 75,https://company75.example.com,8.42,13582,2722
+76,SmartLogic 76,SaaS,Canada,CEO 76,https://company76.example.com,4.05,13977,3155
+77,InsightAI 77,Cloud,Canada,CEO 77,https://company77.example.com,8.22,18154,53
+78,CloudEdge 78,SaaS,India,CEO 78,https://company78.example.com,11.32,19204,2689
+79,NextGenAI 79,Enterprise AI,UK,CEO 79,https://company79.example.com,17.22,16950,3926
+80,InsightAI 80,AI,Germany,CEO 80,https://company80.example.com,13.37,11183,815
+81,VisionTech 81,SaaS,India,CEO 81,https://company81.example.com,20.36,5028,250
+82,TechNova 82,Analytics,UK,CEO 82,https://company82.example.com,15.67,2586,3780
+83,SmartLogic 83,Cloud,India,CEO 83,https://company83.example.com,18.24,12782,4099
+84,SmartLogic 84,Analytics,India,CEO 84,https://company84.example.com,16.75,381,923
+85,SmartLogic 85,Analytics,India,CEO 85,https://company85.example.com,20.3,17172,3855
+86,TechNova 86,Cloud,India,CEO 86,https://company86.example.com,23.02,4176,3789
+87,InsightAI 87,Enterprise AI,Canada,CEO 87,https://company87.example.com,24.71,19711,2649
+88,NextGenAI 88,Cloud,Canada,CEO 88,https://company88.example.com,11.24,18152,3702
+89,InsightAI 89,Enterprise AI,UK,CEO 89,https://company89.example.com,7.22,8301,2321
+90,QuantumSoft 90,Enterprise AI,India,CEO 90,https://company90.example.com,7.59,2738,2390
+91,VisionTech 91,SaaS,Germany,CEO 91,https://company91.example.com,8.67,17899,710
+92,InsightAI 92,Analytics,India,CEO 92,https://company92.example.com,10.19,5207,1802
+93,DataSphere 93,Enterprise AI,UK,CEO 93,https://company93.example.com,8.94,15467,3456
+94,TechNova 94,Analytics,UK,CEO 94,https://company94.example.com,10.35,19339,210
+95,CortexAI 95,Enterprise AI,UK,CEO 95,https://company95.example.com,1.14,11726,2496
+96,SmartLogic 96,Enterprise AI,Canada,CEO 96,https://company96.example.com,18.94,18095,4991
+97,VisionTech 97,Enterprise AI,India,CEO 97,https://company97.example.com,7.55,16113,287
+98,SmartLogic 98,SaaS,UK,CEO 98,https://company98.example.com,18.38,15515,1095
+99,CortexAI 99,Cloud,USA,CEO 99,https://company99.example.com,22.77,19595,4673
+100,TechNova 100,AI,UK,CEO 100,https://company100.example.com,4.26,15328,1538

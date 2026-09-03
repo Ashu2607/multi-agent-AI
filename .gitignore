@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+chroma_store/
+logs/
+reports/*.md
+approvals.db
+.venv/
+venv/
+
+# M6: generated at deploy time from .env, never committed (same secrets as .env)
+env.yaml

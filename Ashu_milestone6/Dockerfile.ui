@@ -1,0 +1,16 @@
+### Streamlit UI image (M6 Step 1). Compose-only - not deployed to Cloud
+# Run (see README "Why only the API goes to Cloud Run").
+
+FROM python:3.13-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app/ ./app/
+
+ENV PYTHONUNBUFFERED=1
+EXPOSE 8501
+
+CMD ["streamlit", "run", "app/dashboard.py", "--server.port=8501", "--server.address=0.0.0.0"]

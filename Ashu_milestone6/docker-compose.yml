@@ -1,0 +1,74 @@
+# M6 Step 1 - full M5 stack as one Compose file, one command:
+#   docker compose up -d --build
+#
+# Four services on one Docker network (`default`), reaching each other by
+# service name via Docker's internal DNS - never localhost/hardcoded IPs:
+#   backend     FastAPI (app/api.py)                    -> http://backend:8000
+#   ui          Streamlit (app/dashboard.py)             -> http://ui:8501 (published to host)
+#   vectorstore Chroma server (official chromadb/chroma) -> http://vectorstore:8000
+#   redis       Episodic memory backend                  -> redis://redis:6379/0
+#
+# Secrets/config come from `.env` (never hardcoded - see .env.example).
+# Run everything below FROM INSIDE your VM's own SSH session, not your
+# laptop - your laptop's browser can't reach the VM anyway (see README).
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: research-backend
+    env_file: .env
+    environment:
+      # Service-name overrides: the values in .env are the local-dev
+      # defaults (localhost); Compose needs the container/service names.
+      REDIS_URL: redis://redis:6379/0
+      CHROMA_SERVER_HOST: vectorstore
+      CHROMA_SERVER_PORT: "8000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+    depends_on:
+      - vectorstore
+      - redis
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    container_name: research-ui
+    env_file: .env
+    environment:
+      API_BASE_URL: http://backend:8000
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  vectorstore:
+    image: chromadb/chroma:0.5.20
+    container_name: research-vectorstore
+    ports:
+      - "8001:8000"  # host 8001 -> container 8000, so it doesn't collide with backend's 8000
+    volumes:
+      - chroma_data:/chroma/chroma
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: research-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
+  redis_data:
